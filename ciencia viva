@@ -1,0 +1,11 @@
+m = float(input("Digite uma número de acordo com o sintoma:"))
+
+if m > 7:
+    print("Arnicão do campo")
+elif m >= 6 and m <= 8:
+
+    print("Erva do passarinho")
+elif m >= 4 and m < 6:
+    print("Assa peixe")
+elif m <= 3:
+    print("Bastao do Imperador")
